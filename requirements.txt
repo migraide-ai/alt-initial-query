@@ -1,0 +1,13 @@
+requests
+openai
+pandas
+python-lsp-server
+cython
+flask
+flask-pymongo
+flask-bcrypt
+wtforms
+certifi
+flask-mail
+flask-cors
+itsdangerous

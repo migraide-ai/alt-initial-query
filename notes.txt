@@ -1,0 +1,26 @@
+login ,email address, and password, login.html -> dahsboard/index.html
+#todo: get business-name
+signup, email_address, usertype, firstname, lastname, password, business_name -> send a token to confirm email -> success -> render login.html
+#on dashboard
+input: email_address,
+return json{
+	firstname,
+	businessname
+}
+#on business profile
+receive profile info, and store in the database
+#initialize-client
+first-name, middle-name, last-name, email-address, phone-number, dob, client-profession, visa-service, gender
+#initialize-form-filling
+
+#client-list
+input: email_address of the business
+output: clientinfo: gender, first-middle-last name, phone-number, visa-service, status
+status (enum): In progress, Completed, and Not started
+
+#nudge client:
+ -dynamic url to take a client to that #initialize-client page
+
+
+
+ 
